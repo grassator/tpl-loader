@@ -1,17 +1,17 @@
-# ejs-loader for webpack
+# Underscore template for webpack
 
-EJS (Underscore/LoDash Templates) loader for [webpack](http://webpack.github.io/). Uses [lodash template](http://lodash.com/docs#template) function to compile templates.
+Underscore template loader for [webpack](http://webpack.github.io/). Uses underscore template function to compile templates.
 
 ## Installation
 
-`npm install ejs-loader`
+`npm install tpl-loader`
 
 ## Usage
 
 [Documentation: Using loaders](http://webpack.github.io/docs/using-loaders.html)
 
 ``` javascript
-var template = require("ejs!./file.ejs");
+var template = require("tpl!./file.ejs");
 // => returns the template function compiled with undesrcore (lodash) templating engine.
 
 // And then use it somewhere in your code
