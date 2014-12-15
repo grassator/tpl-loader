@@ -18,6 +18,18 @@ var template = require("tpl!./file.html");
 template(data) // Pass object with data
 ```
 
+You can add `_.template` settings as a `tplSettings` property inside webpack config file to specify options for the loader, for example:
+
+``` javascript
+    ...
+    tplSettings: {
+        escape: /\{\{([^{].*?)\}\}/gm,
+        interpolate: /\{\{\{(.+?)\}\}\}/gm,
+        evaluate: /\{\%(.+?)\%\}/g
+    }
+    ...
+```
+
 ## License
 
 MIT (http://www.opensource.org/licenses/mit-license.php)

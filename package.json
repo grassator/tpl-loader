@@ -1,6 +1,6 @@
 {
   "name": "tpl-loader",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "Underscore Templates loader for webpack",
   "main": "index.js",
   "repository": {
