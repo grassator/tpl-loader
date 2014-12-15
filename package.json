@@ -1,0 +1,27 @@
+{
+  "name": "tpl-loader",
+  "version": "0.1.0",
+  "description": "Underscore Templates loader for webpack",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/grassator/tpl-loader.git"
+  },
+  "keywords": [
+    "ejs",
+    "underscrore",
+    "lodash",
+    "_",
+    "webpack",
+    "loader",
+    "template"
+  ],
+  "author": {
+    "name": "Dmitriy Kubyshkin",
+    "email": "dmitriy@kubyshkin.ru"
+  },
+  "license": "MIT",
+  "peerDependencies": {
+    "lodash": "*"
+  }
+}
